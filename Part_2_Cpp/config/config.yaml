@@ -1,0 +1,20 @@
+# config.yaml — flat key/value config for the glove_detector C++ binary.
+# Parsed by a minimal hand-rolled loader (see src/config.cpp) that only
+# understands "key: value" pairs, '#' comments, and quoted strings -- no
+# nesting, lists, or anchors. All paths below are relative to this file's
+# OWN directory (config/), not the project root -- the binary resolves them
+# at startup, so "../models/..." reaches Part_2_Cpp/models/ from here.
+
+model_path: ../models/glove_detector.onnx
+classes_path: ../models/classes.txt
+input_dir: ../input
+output_dir: ../output
+log_path: ../logs/detections.json
+
+confidence_threshold: 0.5
+nms_threshold: 0.45
+
+input_width: 416
+input_height: 416
+
+num_threads: 4

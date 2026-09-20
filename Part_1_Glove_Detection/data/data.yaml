@@ -1,0 +1,6 @@
+path: C:/Users/ankit/submission/Part_1_Glove_Detection/data
+train: images/train
+val: images/val
+names:
+  0: gloved_hand
+  1: bare_hand

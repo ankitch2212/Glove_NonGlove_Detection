@@ -1,0 +1,8 @@
+ultralytics==8.4.52
+torch==2.10.0
+opencv-python==4.11.0.86
+onnx==1.21.0
+onnxruntime==1.19.2
+numpy
+# Optional bonus export target; large (~400MB), skip if disk/bandwidth constrained:
+# openvino

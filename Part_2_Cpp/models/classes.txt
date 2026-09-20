@@ -1,0 +1,2 @@
+gloved_hand
+bare_hand

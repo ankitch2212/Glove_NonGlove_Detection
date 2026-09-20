@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "image1.jpg",
+    "detections": [
+      {"label": "gloved_hand", "confidence": 0.81, "bbox": [134, 104, 397, 391]}
+    ]
+  },
+  {
+    "filename": "image2.jpg",
+    "detections": [
+      {"label": "gloved_hand", "confidence": 0.89, "bbox": [141, 148, 444, 407]}
+    ]
+  },
+  {
+    "filename": "image3.jpg",
+    "detections": [
+      {"label": "bare_hand", "confidence": 0.95, "bbox": [57, 148, 601, 444]}
+    ]
+  },
+  {
+    "filename": "image4.jpg",
+    "detections": [
+      {"label": "bare_hand", "confidence": 0.96, "bbox": [97, 121, 473, 443]}
+    ]
+  },
+  {
+    "filename": "image5.jpg",
+    "detections": [
+      {"label": "bare_hand", "confidence": 0.99, "bbox": [1, 269, 495, 639]}
+    ]
+  }
+]
