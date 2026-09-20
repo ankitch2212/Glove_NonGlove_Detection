@@ -70,6 +70,9 @@ Final validation metrics for the shipped `models/best.pt` checkpoint (see
 | mAP50 | 0.966 |
 | mAP50-95 | 0.679 |
 
+![Training curves](runs/glove_v1/results.png)
+![Confusion matrix](runs/glove_v1/confusion_matrix.png)
+
 mAP50 climbed quickly from 0.62 after epoch 1 to 0.91+ by epoch 4 and 0.97-0.99 from
 epoch 6 onward — a strong result for a 10-epoch frozen-backbone run on only 400
 images, and clear evidence the COCO-pretrained backbone's features transfer well to
@@ -96,6 +99,16 @@ hand shapes with only the detection head adapting.
 - The validation split's class balance (38 `gloved_hand` / 102 `bare_hand`) is skewed
   versus the near-even training set — a larger held-out set would give a more
   reliable per-class metric.
+
+## Sample results
+
+| Input (`samples/`) | Annotated output (`output/`) |
+|---|---|
+| ![](samples/image1.jpg) | ![](output/image1.jpg) |
+| ![](samples/image2.jpg) | ![](output/image2.jpg) |
+| ![](samples/image3.jpg) | ![](output/image3.jpg) |
+| ![](samples/image4.jpg) | ![](output/image4.jpg) |
+| ![](samples/image5.jpg) | ![](output/image5.jpg) |
 
 ## How to run
 

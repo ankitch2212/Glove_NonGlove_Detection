@@ -109,6 +109,16 @@ Paths in `config.yaml` are resolved relative to the config file's own directory,
 the binary works correctly whether launched from `Part_2_Cpp/` or from inside
 `build/Release/`.
 
+## Sample results
+
+| Input (`input/`) | Annotated output (`output/`) |
+|---|---|
+| ![](input/image1.jpg) | ![](output/image1.jpg) |
+| ![](input/image2.jpg) | ![](output/image2.jpg) |
+| ![](input/image3.jpg) | ![](output/image3.jpg) |
+| ![](input/image4.jpg) | ![](output/image4.jpg) |
+| ![](input/image5.jpg) | ![](output/image5.jpg) |
+
 ### Output
 
 - Annotated images written to `output/` (green boxes for `gloved_hand`, red for

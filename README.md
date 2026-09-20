@@ -30,6 +30,21 @@ submission/
 └── Part_3_Answers.md           <- reasoning write-up (4 questions)
 ```
 
+## Sample results
+
+Same 5 held-out test images run through both pipelines — Python (Part 1) and the
+C++ port (Part 2) produce matching detections.
+
+| Input | Part 1 output (Python) | Part 2 output (C++) |
+|---|---|---|
+| ![](Part_1_Glove_Detection/samples/image1.jpg) | ![](Part_1_Glove_Detection/output/image1.jpg) | ![](Part_2_Cpp/output/image1.jpg) |
+| ![](Part_1_Glove_Detection/samples/image3.jpg) | ![](Part_1_Glove_Detection/output/image3.jpg) | ![](Part_2_Cpp/output/image3.jpg) |
+| ![](Part_1_Glove_Detection/samples/image5.jpg) | ![](Part_1_Glove_Detection/output/image5.jpg) | ![](Part_2_Cpp/output/image5.jpg) |
+
+See [`Part_1_Glove_Detection/output/`](Part_1_Glove_Detection/output/) and
+[`Part_2_Cpp/output/`](Part_2_Cpp/output/) for all 5 annotated images from each
+pipeline.
+
 ## Quick start
 
 **Part 1 (Python):**
